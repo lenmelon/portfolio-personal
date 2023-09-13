@@ -1,0 +1,142 @@
+:root {
+  --branding-color: #ae445a;
+  --secondary-color: #f5f5f5;
+  --heading-font-family: "Arvo", serif;
+  --default-font-family: "Lato", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: 451952;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: medium;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+
+.work-subheading {
+  font-size: 14px;
+}
+
+.btn-branding {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 15px;
+  line-height: 16px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .content h1 {
+    font-size: 50px;
+  }
+}
